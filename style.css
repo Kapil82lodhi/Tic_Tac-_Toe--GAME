@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:rgb(19, 1, 15);
+    text-align: center;
+    color: #e3d9d2;
+    scroll-behavior: unset;
+    
+}
+#hed{
+    padding-top: 5vmin;
+    border-bottom: solid white 5px;
+    max-width: 60vmin;
+    margin: auto;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    border: solid 2px white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    padding: 10px 0 10px 0;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0 , 0 , 0 , 0.3);
+    font-size: 8vmin;
+    color: #f06565;
+    background-color: #ffffc7;
+    cursor: pointer;
+
+}
+
+.box:hover{
+        box-shadow: 0 0 1rem rgba(198, 201, 30, 0.952);
+}
+
+#reset-btn{
+    padding: 3vmin;
+    border-radius: 2vmin;
+    border: none;
+    background-color: black;
+    color: azure;
+    box-shadow: 0 0 2rem rgba(0 , 0 , 0 , 0.3);
+    font-size: 3vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#new-btn{
+    padding: 3vmin;
+    border-radius: 2vmin;
+    border: none;
+    background-color: black;
+    color: azure;
+    box-shadow: 0 0 2rem rgba(0 , 0 , 0 , 0.3);
+    font-size: 3vmin;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+    #reset-btn:hover{
+        background-color: aliceblue;
+        color: black; 
+        box-shadow: 0 0 2rem rgba(198, 201, 30, 0.952);
+    }
+    #new-btn:hover{
+        background-color: aliceblue;
+        color: black; 
+        box-shadow: 0 0 2rem rgba(198, 201, 30, 0.952);
+    }
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+
+}
+
+.msg-container{
+            height: 100vmin;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+
+}
+
+.hide{
+    display: none;
+
+}
+
+.color1{
+        background-color: red;
+        color: white;
+}
+
+.color2{
+        background-color: blue;
+        color: white;
+}
+
+span{
+
+    font-size: 200vmin;
+}
+
+#foot{
+    position: absolute;
+    margin-left: 150vmin;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footdiv{
+            padding-right: 1px;  
+}
+
